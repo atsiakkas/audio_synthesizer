@@ -1,7 +1,7 @@
 # Audio synthesizer
 
 This project creates an audio synthesizer model able to receive a given phrase from the user and produce and play back to the user a synthesized audio pronunciation of that phrase. The implementated model splits the given phrase into diphones and pauses and uses a set of pre-recorded audio files of all english diphones to synthesize that phrase. 
-
+<br/>
 
 ## Project
 
@@ -15,7 +15,7 @@ https://github.com/atsiakkas/audio_synthesizer<br/>
 **simpleaudio**: Defines the Audio class which represents the synthesized audio output.
 
 **audio_synthesizer**: Defines the Synth class which performs the text processing of the user's phrase and outputs the synthesized audio as a simpleaudio.Audio instance
-
+<br/>
 
 ## Getting started
 
