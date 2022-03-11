@@ -8,6 +8,14 @@ This project creates an audio synthesizer model able to receive a given phrase f
 https://github.com/atsiakkas/audio_synthesizer<br/>
 <br/>
 
+## Contents
+
+**Diphones**: Contains audio files (.wav) of all english diphones
+
+**simpleaudio**: Defines the Audio class which represents the synthesized audio output.
+
+**audio_synthesizer**: Defines the Synth class which performs the text processing of the user's phrase and outputs the synthesized audio as a simpleaudio.Audio instance
+
 
 ## Getting started
 
@@ -34,13 +42,7 @@ The user can additionally specify the following arguments
     
     --crossfade or -c (default=False) --> Enable slightly smoother concatenation by cross-fading between diphone units
 
-## Contents
 
-**Diphones**: Contains audio files (.wav) of all english diphones
-
-**simpleaudio**: Defines the Audio class which represents the synthesized audio output.
-
-**audio_synthesizer**: Defines the Synth class which performs the text processing of the user's phrase and outputs the synthesized audio as a simpleaudio.Audio instance
 
 
 
