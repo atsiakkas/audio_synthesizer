@@ -17,13 +17,21 @@ python audio_synthesizer.py "[your phrase]"
 ```
 
 The user can additionally specify the following arguments
+
     --diphones (default="./diphones") --> Folder containing diphone wavs
+    
     --play or -p (default=False) --> Play the output audio
+    
     --outfile or -o (default=None) --> Save the output audio to a file
+    
     --volume or -v (default=None) --> An int between 0 and 100 representing the desired volume
+    
     --spell or -s (default=False) --> Spell the input text instead of pronouncing it normally
+    
     --reverse or -r (default=None, choices=['words', 'phones', 'signal']) --> Speak backwards in a mode specified by string argument: 'words', 'phones' or 'signal'
+    
     --fromfile or -f (default=None) --> Open file with given name and synthesise all text, which can be multiple sentences
+    
     --crossfade or -c (default=False) --> Enable slightly smoother concatenation by cross-fading between diphone units
 
 ## Contents
